@@ -1,1 +1,1 @@
-# avr_lcd_lib
+Code to interface a PIC/AVR Atmega32 with a HD44780 compatible, two-row character LCD.  It may, or may not, work with other AVR models (I haven't tried).  The LCD is assumed to have all eight data bits connected to the AVR.  This code is intended to be imported into another project rather than running on its own.
