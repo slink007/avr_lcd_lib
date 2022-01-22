@@ -1,6 +1,10 @@
 #ifndef LCD_H
 #define LCD_H
 
+#include <avr/io.h>
+#include <util/delay.h>
+#include <string.h>
+
 #define DATAPORT PORTB
 #define DATADIR DDRB
 #define CONTROLPORT PORTD
