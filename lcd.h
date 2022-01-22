@@ -2,6 +2,7 @@
 #define LCD_H
 
 #include <avr/io.h>
+#include <stdio.h>
 #include <util/delay.h>
 #include <string.h>
 
