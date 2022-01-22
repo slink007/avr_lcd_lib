@@ -10,6 +10,8 @@
 #define MAXLENGTH 16
 const char BLANKROW[] = "                ";
 
+float floatToString(float number, char *str);
+
 /*
  * Send command to LCD.  Put command onto data bus, pull RS low, pulse EN high,
  * return RS high so LCD will interpret future data as something to be displayed
