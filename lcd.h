@@ -28,6 +28,16 @@ void lcd_init(void);
 char lcd_text(validRow_t row, char column, const char *str);
 
 
+/*
+ * Specify the row and column to start printing text.  Convert 'number'
+ * to a string and send it to the LCD for display.
+ * 
+ * Returns the number of characters written to the LCD.
+ */
+char lcd_float(validRow_t row, char column, char precision, float number);
+
+
+
 /* Remove all text from the LCD */
 void clear_text(void);
 
